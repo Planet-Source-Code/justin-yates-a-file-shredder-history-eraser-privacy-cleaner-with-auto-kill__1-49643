@@ -1,0 +1,104 @@
+[Root]
+Most Recent Package=Shredder
+
+
+[Package|Shredder|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Development\Fill Shredder\package
+
+[Package|Shredder|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Shredder|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Shredder|Files Found]
+
+[Package|Shredder|Files Released]
+
+[Package|Shredder|Missing Dependency Information]
+C:\Development\Fill Shredder\URLHIST.tlb=
+C:\WINDOWS\system32\psapi.dll=
+C:\WINDOWS\system32\WININET.DLL=
+
+[Package|Shredder|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Shredder|Files Added]
+
+[Package|Shredder|Files Removed]
+
+[Package|Shredder|Files In Project]
+C:\Development\Fill Shredder\Shredder.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\WININET.DLL=Yes
+C:\WINDOWS\system32\psapi.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Development\Fill Shredder\URLHIST.tlb=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Shredder|Configure Registry Files]
+Applicable=No
+
+[Package|Shredder|Configure Remote Servers]
+Applicable=No
+
+[Package|Shredder|Install Locations]
+C:\Development\Fill Shredder\Shredder.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\system32\psapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Development\Fill Shredder\URLHIST.tlb=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Shredder|Configure Shared Files]
+Applicable=Yes
+C:\Development\Fill Shredder\Shredder.exe=No
+
+[Package|Shredder|Distribution]
+Type=single
+Size=
+Title=File Shredder - History Eraser
+
+[Package|Shredder|IconGroups]
+Group0=File Shredder - History Eraser
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Shredder|File Shredder - History Eraser]
+Icon1=Shredder.exe
+Title1=File Shredder - History Eraser
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Shredder|Package]
+PackageFolder=C:\Development\Fill Shredder\package
+ProjectFolder=C:\Development\Fill Shredder
+ServerSideCab=
+File1=C:\Development\Fill Shredder\package\setup.exe
+File2=C:\Development\Fill Shredder\package\Setup.Lst
+File3=C:\Development\Fill Shredder\package\Shredder.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
